@@ -1,0 +1,20 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 0 products, 0 sources, 0 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/Main.scala, ${BASE}/src/main/scala/utils/Strings.scala, ${BASE}/src/main/scala/utils/Notes.scala, ${BASE}/src/main/scala/utils/Fretboard.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/utils/Fretboard.scala, ${BASE}/src/main/scala/utils/Strings.scala, ${BASE}/src/main/scala/utils/Notes.scala, ${BASE}/src/main/scala/Main.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mFull compilation, no sources in previous analysis.[0m
+[0m[[0m[0mdebug[0m] [0m[0mall 4 sources are invalidated[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0 percent of all sources[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources to /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/target/scala-3.2.2/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: /Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.2.2/scala3-sbt-bridge-3.2.2.jar.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 3296cb9c for Scala Compiler version 3.2.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.2.2/scala3-library_3-3.2.2.jar:/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/target/scala-3.2.2/classes:/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_3/3.2.15/scalactic_3-3.2.15.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.281750917 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m

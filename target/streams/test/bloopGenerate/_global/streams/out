@@ -1,0 +1,4 @@
+[debug] [remaking-melody-maker-test] Classpath dependencies List()
+[debug] [remaking-melody-maker-test] Dependencies from configurations List(remaking-melody-maker)
+[debug] Bloop wrote the configuration of project 'remaking-melody-maker-test' to '/Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/.bloop/remaking-melody-maker-test.json'
+[success] Generated .bloop/remaking-melody-maker-test.json

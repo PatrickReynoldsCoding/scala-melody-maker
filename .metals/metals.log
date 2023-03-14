@@ -1,0 +1,472 @@
+2023.03.12 09:21:23 INFO  Started: Metals version 0.11.11 in workspace '/Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker' for client Visual Studio Code 1.76.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.12 09:21:24 INFO  time: initialize in 1.46s
+2023.03.12 09:21:33 WARN  Build server is not auto-connectable.
+2023.03.12 09:21:33 WARN  no build target for: /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/build.sbt
+2023.03.12 09:21:46 INFO  no build target found for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/build.sbt. Using presentation compiler with project's scala-library version: 3.2.2
+Mar 12, 2023 9:21:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Mar 12, 2023 9:21:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Mar 12, 2023 9:21:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+Mar 12, 2023 9:21:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+Mar 12, 2023 9:21:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Mar 12, 2023 9:21:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+Mar 12, 2023 9:21:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+Mar 12, 2023 9:21:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Mar 12, 2023 9:21:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+Mar 12, 2023 9:21:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+Mar 12, 2023 9:21:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29
+Mar 12, 2023 9:21:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 36
+2023.03.12 09:21:48 WARN  no build target for: /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/build.sbt
+Mar 12, 2023 9:21:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 44
+Mar 12, 2023 9:21:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25
+Mar 12, 2023 9:21:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49
+Mar 12, 2023 9:21:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 50
+Mar 12, 2023 9:21:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 51
+2023.03.12 09:21:49 INFO  time: code lens generation in 2.12s
+2023.03.12 09:21:49 INFO  time: code lens generation in 1.99s
+2023.03.12 09:21:49 INFO  time: code lens generation in 1.3s
+2023.03.12 09:21:49 INFO  time: code lens generation in 1.2s
+2023.03.12 09:21:49 INFO  time: code lens generation in 1.26s
+2023.03.12 09:21:49 INFO  time: code lens generation in 1.73s
+2023.03.12 09:21:49 INFO  time: code lens generation in 1.34s
+2023.03.12 09:21:49 INFO  time: code lens generation in 1.81s
+2023.03.12 09:21:49 INFO  time: code lens generation in 1.67s
+2023.03.12 09:21:49 INFO  time: code lens generation in 1.5s
+2023.03.12 09:21:49 INFO  time: code lens generation in 1.31s
+2023.03.12 09:21:49 INFO  time: code lens generation in 1.76s
+2023.03.12 09:21:53 INFO  running '/Users/patrickreynolds/.jabba/jdk/openjdk@1.17.0/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/rm/mlqxg93n4ps14yyzc_pbpbjm0000gn/T/metals14333489396346266222/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.03.12 09:21:54 WARN  no build target for: /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/project/metals.sbt
+2023.03.12 09:21:54 WARN  no build target for: /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/project/project/metals.sbt
+2023.03.12 09:21:54 INFO  skipping build import with status 'Dismissed'
+2023.03.12 09:21:58 INFO  [info] welcome to sbt 1.8.2 (Oracle Corporation Java 17)
+2023.03.12 09:22:05 WARN  no build target for: /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/build.sbt
+2023.03.12 09:22:05 INFO  skipping build import with status 'Dismissed'
+2023.03.12 09:22:07 INFO  [info] loading settings for project remaking-melody-maker-build-build from metals.sbt ...
+2023.03.12 09:22:11 INFO  [info] loading project definition from /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/project/project
+2023.03.12 09:22:19 INFO  [info] loading settings for project remaking-melody-maker-build from metals.sbt ...
+2023.03.12 09:22:20 INFO  [info] loading project definition from /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/project
+2023.03.12 09:22:27 INFO  [success] Generated .bloop/remaking-melody-maker-build.json
+2023.03.12 09:22:27 INFO  [success] Total time: 7 s, completed 12 Mar 2023, 09:22:28
+2023.03.12 09:22:36 INFO  [info] loading settings for project remaking-melody-maker from build.sbt ...
+2023.03.12 09:22:37 INFO  [info] set current project to remaking-melody-maker (in build file:/Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/)
+2023.03.12 09:22:45 INFO  [success] Generated .bloop/remaking-melody-maker-test.json
+2023.03.12 09:22:45 INFO  [success] Generated .bloop/remaking-melody-maker.json
+2023.03.12 09:22:45 INFO  [success] Total time: 7 s, completed 12 Mar 2023, 09:22:45
+2023.03.12 09:22:45 INFO  time: ran 'sbt bloopInstall' in 51s
+2023.03.12 09:22:45 INFO  Attempting to connect to the build server...
+2023.03.12 09:22:45 INFO  Bloop uses /Users/patrickreynolds/.jabba/jdk/openjdk@1.17.0/Contents/Home defined at /Users/patrickreynolds/.bloop/bloop.json
+2023.03.12 09:22:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/.metals/bsp.trace.json or /Users/patrickreynolds/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.03.12 09:22:45 INFO  Attempting to connect to the build server...
+2023.03.12 09:22:45 INFO  Bloop uses /Users/patrickreynolds/.jabba/jdk/openjdk@1.17.0/Contents/Home defined at /Users/patrickreynolds/.bloop/bloop.json
+2023.03.12 09:22:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/project/.metals/bsp.trace.json or /Users/patrickreynolds/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.03.12 09:22:45 INFO  time: Connected to build server in 0.69s
+2023.03.12 09:22:45 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.12 09:22:46 INFO  time: Imported build in 0.16s
+2023.03.12 09:23:00 INFO  time: indexed workspace in 13s
+2023.03.12 09:23:15 INFO  time: code lens generation in 12s
+Mar 12, 2023 9:23:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 105
+Mar 12, 2023 9:23:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 106
+2023.03.12 09:23:32 INFO  skipping build import with status 'Dismissed'
+2023.03.12 09:28:08 INFO  compiling remaking-melody-maker (1 scala source)
+2023.03.12 09:28:12 INFO  time: compiled remaking-melody-maker in 4.66s
+Mar 12, 2023 9:28:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 205
+2023.03.12 09:28:46 INFO  compiling remaking-melody-maker (1 scala source)
+2023.03.12 09:28:52 INFO  time: compiled remaking-melody-maker in 6.44s
+Mar 12, 2023 9:28:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 262
+2023.03.12 09:29:22 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/Main.scala
+2023.03.12 09:29:22 INFO  compiling remaking-melody-maker (1 scala source)
+2023.03.12 09:29:25 INFO  time: compiled remaking-melody-maker in 2.7s
+2023.03.12 09:30:26 INFO  compiling remaking-melody-maker (1 scala source)
+2023.03.12 09:30:28 INFO  time: compiled remaking-melody-maker in 1.67s
+2023.03.12 09:31:21 INFO  compiling remaking-melody-maker (1 scala source)
+2023.03.12 09:31:23 INFO  time: compiled remaking-melody-maker in 2.18s
+2023.03.12 09:31:27 WARN  Using indexes to guess the definition of returnNum
+2023.03.12 09:31:28 INFO  compiling remaking-melody-maker (1 scala source)
+2023.03.12 09:31:30 INFO  time: compiled remaking-melody-maker in 1.28s
+2023.03.12 09:34:05 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.12 09:34:05 INFO  time: compiled remaking-melody-maker-test in 0.53s
+2023.03.12 09:34:08 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.12 09:34:14 INFO  time: compiled remaking-melody-maker-test in 6.01s
+2023.03.12 09:39:24 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/MainSpec.scala:3:24: stale bloop error: Not found: type FlatSpec
+class MainSpec extends FlatSpec with Matchers {
+                       ^^^^^^^^
+2023.03.12 09:39:24 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/MainSpec.scala:3:38: stale bloop error: Not found: type Matchers
+class MainSpec extends FlatSpec with Matchers {
+                                     ^^^^^^^^
+2023.03.12 09:39:24 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/MainSpec.scala:4:3: stale bloop error: value should is not a member of String
+  "returnNum" should "return the input integer" in {
+  ^^^^^^^^^^^^^^^^^^
+2023.03.12 09:39:24 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/MainSpec.scala:3:24: stale bloop error: Not found: type FlatSpec
+class MainSpec extends FlatSpec with Matchers {
+                       ^^^^^^^^
+2023.03.12 09:39:24 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/MainSpec.scala:3:38: stale bloop error: Not found: type Matchers
+class MainSpec extends FlatSpec with Matchers {
+                                     ^^^^^^^^
+2023.03.12 09:39:24 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/MainSpec.scala:4:3: stale bloop error: value should is not a member of String
+  "returnNum" should "return the input integer" in {
+  ^^^^^^^^^^^^^^^^^^
+2023.03.12 09:39:35 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.12 09:39:40 INFO  time: compiled remaking-melody-maker-test in 5.02s
+2023.03.12 09:40:06 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.12 09:40:11 INFO  time: compiled remaking-melody-maker-test in 4.62s
+2023.03.12 09:41:05 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.12 09:41:10 INFO  time: compiled remaking-melody-maker-test in 4.68s
+2023.03.13 11:43:18 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/MainSpec.scala:5:24: stale bloop error: Not found: type FlatSpec
+class MainSpec extends FlatSpec {
+                       ^^^^^^^^
+2023.03.13 11:43:18 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/MainSpec.scala:6:3: stale bloop error: value should is not a member of String
+  "returnNum" should "return the input integer" in {
+  ^^^^^^^^^^^^^^^^^^
+2023.03.13 11:43:31 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 11:43:32 INFO  time: compiled remaking-melody-maker-test in 1.06s
+Mar 13, 2023 11:44:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1021
+2023.03.13 11:44:32 ERROR scalafmt: /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/build.sbt:8: error: [dialect scala213] ) expected but string constant found
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.15" % "test"
+                       ^
+Mar 13, 2023 11:44:32 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2Fpatrickreynolds%2Frepos%2Ftests%2Frandom_stuff%2Fscala%2Fremaking-melody-maker%2Fbuild.sbt:14: error: ) expected but string constant found
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.15" % "test"
+                       ^
+file%3A%2F%2F%2FUsers%2Fpatrickreynolds%2Frepos%2Ftests%2Frandom_stuff%2Fscala%2Fremaking-melody-maker%2Fbuild.sbt:14: error: ) expected but string constant found
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.15" % "test"
+                       ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:400)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:404)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensAfterOpen(ScalametaParser.scala:250)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensAfterOpenOr(ScalametaParser.scala:255)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensOnOpenOr(ScalametaParser.scala:246)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scala$meta$internal$parsers$ScalametaParser$$getArgClause$1(ScalametaParser.scala:2362)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$getArgClause(ScalametaParser.scala:2351)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:2233)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$3(ScalametaParser.scala:2153)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2153)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2103)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2086)
+	at scala.meta.internal.parsers.ScalametaParser.argumentExprsOrPrefixExpr(ScalametaParser.scala:2323)
+	at scala.meta.internal.parsers.ScalametaParser.loop$6(ScalametaParser.scala:2052)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2070)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2007)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1631)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:330)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:380)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1532)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$1.$anonfun$applyOrElse$1(ScalametaParser.scala:4207)
+	at scala.meta.internal.parsers.ScalametaParser.stat(ScalametaParser.scala:4244)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$1.applyOrElse(ScalametaParser.scala:4207)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$1.applyOrElse(ScalametaParser.scala:4200)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:145)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4263)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$14(ScalametaParser.scala:4476)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4476)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.03.13 11:45:18 INFO  skipping build import with status 'Dismissed'
+2023.03.13 11:45:25 INFO  skipping build import with status 'Dismissed'
+2023.03.13 12:33:47 INFO  time: code lens generation in 3.28s
+2023.03.13 12:33:47 INFO  time: code lens generation in 7.84s
+2023.03.13 17:01:36 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/MainSpec.scala
+2023.03.13 17:01:36 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:01:36 INFO  time: compiled remaking-melody-maker-test in 0.92s
+2023.03.13 17:02:11 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:02:11 INFO  time: compiled remaking-melody-maker-test in 0.3s
+2023.03.13 17:03:01 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:03:03 INFO  time: compiled remaking-melody-maker-test in 2.27s
+2023.03.13 17:03:22 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:03:22 INFO  time: compiled remaking-melody-maker-test in 0.91s
+2023.03.13 17:03:23 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/MainSpec.scala
+2023.03.13 17:04:52 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/MainSpec.scala
+2023.03.13 17:04:53 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/MainSpec.scala
+2023.03.13 17:05:12 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/MainSpec.scala
+2023.03.13 17:06:01 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/MainSpec.scala
+2023.03.13 17:06:20 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/MainSpec.scala
+2023.03.13 17:06:22 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/MainSpec.scala
+2023.03.13 17:06:23 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:06:26 INFO  time: compiled remaking-melody-maker-test in 2.58s
+2023.03.13 17:07:48 INFO  time: code lens generation in 1.34s
+2023.03.13 17:07:56 INFO  running '/Users/patrickreynolds/.jabba/jdk/openjdk@1.17.0/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/rm/mlqxg93n4ps14yyzc_pbpbjm0000gn/T/metals1255835417991736039/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.03.13 17:07:59 INFO  [info] welcome to sbt 1.8.2 (Oracle Corporation Java 17)
+2023.03.13 17:07:59 INFO  [info] loading settings for project remaking-melody-maker-build-build from metals.sbt ...
+2023.03.13 17:08:01 INFO  [info] loading project definition from /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/project/project
+2023.03.13 17:08:03 INFO  [info] loading settings for project remaking-melody-maker-build from metals.sbt ...
+2023.03.13 17:08:03 INFO  [info] loading project definition from /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/project
+2023.03.13 17:08:07 INFO  [success] Generated .bloop/remaking-melody-maker-build.json
+2023.03.13 17:08:07 INFO  [success] Total time: 3 s, completed 13 Mar 2023, 17:08:07
+2023.03.13 17:08:12 INFO  [info] loading settings for project remaking-melody-maker from build.sbt ...
+2023.03.13 17:08:12 INFO  [info] set current project to remaking-melody-maker (in build file:/Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/)
+2023.03.13 17:08:14 INFO  [success] Generated .bloop/remaking-melody-maker.json
+2023.03.13 17:08:14 INFO  [success] Generated .bloop/remaking-melody-maker-test.json
+2023.03.13 17:08:14 INFO  [success] Total time: 2 s, completed 13 Mar 2023, 17:08:14
+2023.03.13 17:08:15 INFO  time: ran 'sbt bloopInstall' in 18s
+2023.03.13 17:08:15 INFO  Disconnecting from Bloop session...
+2023.03.13 17:08:15 INFO  Shut down connection with build server.
+2023.03.13 17:08:15 INFO  Shut down connection with build server.
+2023.03.13 17:08:15 INFO  Attempting to connect to the build server...
+2023.03.13 17:08:15 INFO  Bloop uses /Users/patrickreynolds/.jabba/jdk/openjdk@1.17.0/Contents/Home defined at /Users/patrickreynolds/.bloop/bloop.json
+2023.03.13 17:08:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/.metals/bsp.trace.json or /Users/patrickreynolds/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.03.13 17:08:15 INFO  Attempting to connect to the build server...
+2023.03.13 17:08:15 INFO  Bloop uses /Users/patrickreynolds/.jabba/jdk/openjdk@1.17.0/Contents/Home defined at /Users/patrickreynolds/.bloop/bloop.json
+2023.03.13 17:08:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/project/.metals/bsp.trace.json or /Users/patrickreynolds/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.03.13 17:08:15 INFO  time: Connected to build server in 0.17s
+2023.03.13 17:08:15 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.13 17:08:15 INFO  Required scalafmt dialect rewrite to 'scala3'. Directories:
+- src/test/scala
+- src/main/scala
+2023.03.13 17:08:20 INFO  time: indexed workspace in 5.59s
+2023.03.13 17:08:21 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:08:22 INFO  time: code lens generation in 1.08s
+2023.03.13 17:08:22 INFO  time: code lens generation in 2.6s
+2023.03.13 17:08:28 INFO  time: compiled remaking-melody-maker-test in 6.81s
+2023.03.13 17:17:35 INFO  skipping build import with status 'Dismissed'
+2023.03.13 17:17:55 INFO  skipping build import with status 'Dismissed'
+2023.03.13 17:18:05 INFO  skipping build import with status 'Dismissed'
+Mar 13, 2023 5:23:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1885
+2023.03.13 17:23:33 INFO  compiling remaking-melody-maker (1 scala source)
+2023.03.13 17:23:34 INFO  time: compiled remaking-melody-maker in 1.22s
+2023.03.13 17:23:36 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:23:36 INFO  time: compiled remaking-melody-maker-test in 0.46s
+2023.03.13 17:23:38 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:23:38 INFO  time: compiled remaking-melody-maker-test in 0.38s
+2023.03.13 17:23:42 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:23:43 WARN  Using indexes to guess the definition of myUtil
+2023.03.13 17:23:44 INFO  time: compiled remaking-melody-maker-test in 2.06s
+2023.03.13 17:23:55 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:23:57 INFO  time: compiled remaking-melody-maker-test in 1.83s
+2023.03.13 17:23:57 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:23:58 INFO  time: compiled remaking-melody-maker-test in 1.27s
+2023.03.13 17:24:01 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:24:02 INFO  time: compiled remaking-melody-maker-test in 1.01s
+2023.03.13 17:24:03 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:24:03 INFO  time: compiled remaking-melody-maker-test in 0.39s
+2023.03.13 17:24:04 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:24:04 INFO  time: compiled remaking-melody-maker-test in 0.37s
+2023.03.13 17:24:05 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:24:05 INFO  time: compiled remaking-melody-maker-test in 0.38s
+2023.03.13 17:24:08 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:24:09 INFO  time: compiled remaking-melody-maker-test in 1.07s
+2023.03.13 17:24:49 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:24:49 INFO  time: compiled remaking-melody-maker-test in 0.98s
+2023.03.13 17:25:03 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:25:03 INFO  time: compiled remaking-melody-maker-test in 0.21s
+2023.03.13 17:25:14 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:25:14 INFO  time: compiled remaking-melody-maker-test in 0.19s
+2023.03.13 17:25:23 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:25:23 INFO  time: compiled remaking-melody-maker-test in 0.89s
+2023.03.13 17:25:28 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:25:30 INFO  time: compiled remaking-melody-maker-test in 1.48s
+2023.03.13 17:32:43 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:32:43 INFO  time: compiled remaking-melody-maker-test in 0.45s
+2023.03.13 17:32:50 ERROR scalafmt: /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/MainSpec.scala:8: error: [dialect scala3] ) expected but integer constant found
+      assert(myUtil.returnNum(2) Should be 2)
+                                           ^
+2023.03.13 17:32:50 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:32:53 INFO  time: compiled remaking-melody-maker-test in 2.65s
+2023.03.13 17:32:58 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:32:58 INFO  time: compiled remaking-melody-maker-test in 0.78s
+2023.03.13 17:33:06 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:33:07 INFO  time: compiled remaking-melody-maker-test in 1.52s
+2023.03.13 17:33:09 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:33:11 INFO  time: compiled remaking-melody-maker-test in 1.22s
+2023.03.13 17:33:27 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:33:27 INFO  time: compiled remaking-melody-maker-test in 0.68s
+Mar 13, 2023 5:33:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2376
+2023.03.13 17:33:34 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:33:34 INFO  time: compiled remaking-melody-maker-test in 0.83s
+2023.03.13 17:34:13 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:34:13 INFO  time: compiled remaking-melody-maker-test in 0.24s
+2023.03.13 17:34:20 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:34:20 INFO  time: compiled remaking-melody-maker-test in 0.7s
+2023.03.13 17:34:28 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:34:28 INFO  time: compiled remaking-melody-maker-test in 0.74s
+2023.03.13 17:34:33 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:34:33 INFO  time: compiled remaking-melody-maker-test in 0.89s
+2023.03.13 17:35:45 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:35:45 INFO  time: compiled remaking-melody-maker-test in 0.98s
+2023.03.13 17:35:58 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:35:58 INFO  time: compiled remaking-melody-maker-test in 0.59s
+2023.03.13 17:36:15 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:36:17 INFO  time: compiled remaking-melody-maker-test in 1.89s
+2023.03.13 17:36:39 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:36:40 INFO  time: compiled remaking-melody-maker-test in 1.15s
+2023.03.13 17:36:59 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/MainSpec.scala
+2023.03.13 17:36:59 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:36:59 INFO  time: compiled remaking-melody-maker-test in 0.86s
+2023.03.13 17:37:32 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:37:32 INFO  time: compiled remaking-melody-maker-test in 0.94s
+2023.03.13 17:37:39 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 17:37:39 INFO  time: compiled remaking-melody-maker-test in 0.55s
+2023.03.13 18:07:22 INFO  compiling remaking-melody-maker (1 scala source)
+2023.03.13 18:07:23 INFO  time: compiled remaking-melody-maker in 1.05s
+2023.03.13 18:07:25 ERROR scalafmt: /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/MainSpec.scala:2: error: [dialect scala3] identifier expected but . found
+import .myUtilimport org.scalatest.funspec.AnyFunSpec
+       ^
+2023.03.13 18:07:25 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 18:07:25 INFO  time: compiled remaking-melody-maker-test in 0.26s
+2023.03.13 18:07:39 ERROR scalafmt: /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/MainSpec.scala:2: error: [dialect scala3] identifier expected but . found
+import .myUtilimport org.scalatest.funspec.AnyFunSpec
+       ^
+2023.03.13 18:07:39 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 18:07:39 INFO  time: compiled remaking-melody-maker-test in 0.25s
+2023.03.13 18:07:41 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 18:07:41 INFO  time: compiled remaking-melody-maker-test in 0.27s
+2023.03.13 18:07:41 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 18:07:41 INFO  time: compiled remaking-melody-maker-test in 0.22s
+2023.03.13 18:08:24 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 18:08:24 INFO  time: compiled remaking-melody-maker-test in 0.37s
+2023.03.13 18:08:24 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 18:08:24 INFO  time: compiled remaking-melody-maker-test in 0.3s
+2023.03.13 18:08:26 INFO  compiling remaking-melody-maker (1 scala source)
+2023.03.13 18:08:28 INFO  time: compiled remaking-melody-maker in 1.14s
+Mar 13, 2023 6:08:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2805
+Mar 13, 2023 6:08:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2807
+2023.03.13 18:08:29 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 18:08:29 INFO  time: compiled remaking-melody-maker-test in 0.56s
+2023.03.13 18:08:31 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 18:08:31 INFO  time: compiled remaking-melody-maker-test in 0.25s
+2023.03.13 18:15:15 INFO  compiling remaking-melody-maker (1 scala source)
+2023.03.13 18:15:15 INFO  time: compiled remaking-melody-maker in 0.16s
+2023.03.13 18:15:25 INFO  compiling remaking-melody-maker (1 scala source)
+2023.03.13 18:15:25 INFO  time: compiled remaking-melody-maker in 0.15s
+2023.03.13 18:15:36 INFO  compiling remaking-melody-maker (1 scala source)
+2023.03.13 18:15:36 INFO  time: compiled remaking-melody-maker in 0.19s
+2023.03.13 18:15:38 INFO  compiling remaking-melody-maker (1 scala source)
+2023.03.13 18:15:38 INFO  time: compiled remaking-melody-maker in 0.22s
+2023.03.13 18:15:51 INFO  compiling remaking-melody-maker (1 scala source)
+2023.03.13 18:15:51 INFO  time: compiled remaking-melody-maker in 0.22s
+2023.03.13 18:15:53 INFO  compiling remaking-melody-maker (1 scala source)
+2023.03.13 18:15:53 INFO  time: compiled remaking-melody-maker in 0.11s
+2023.03.13 18:16:09 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.13 18:16:09 INFO  time: compiled remaking-melody-maker-test in 0.92s
+2023.03.14 11:13:22 INFO  compiling remaking-melody-maker (1 scala source)
+2023.03.14 11:13:24 INFO  time: compiled remaking-melody-maker in 1.47s
+2023.03.14 11:13:28 INFO  compiling remaking-melody-maker (1 scala source)
+2023.03.14 11:13:28 INFO  time: compiled remaking-melody-maker in 0.51s
+Mar 14, 2023 11:13:30 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 14, 2023 11:13:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.03.14 11:15:08 INFO  compiling remaking-melody-maker (1 scala source)
+2023.03.14 11:15:08 INFO  time: compiled remaking-melody-maker in 0.34s
+2023.03.14 11:15:31 INFO  compiling remaking-melody-maker (2 scala sources)
+2023.03.14 11:15:31 INFO  time: compiled remaking-melody-maker in 0.35s
+2023.03.14 11:15:33 INFO  compiling remaking-melody-maker (2 scala sources)
+2023.03.14 11:15:33 INFO  time: compiled remaking-melody-maker in 0.19s
+2023.03.14 11:15:49 INFO  compiling remaking-melody-maker (2 scala sources)
+2023.03.14 11:15:49 INFO  time: compiled remaking-melody-maker in 0.73s
+2023.03.14 11:16:18 INFO  compiling remaking-melody-maker (2 scala sources)
+2023.03.14 11:16:18 INFO  time: compiled remaking-melody-maker in 0.5s
+2023.03.14 11:16:30 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.14 11:16:30 INFO  time: compiled remaking-melody-maker-test in 0.34s
+2023.03.14 11:16:39 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.14 11:16:39 INFO  time: compiled remaking-melody-maker-test in 0.17s
+2023.03.14 11:16:47 INFO  compiling remaking-melody-maker (1 scala source)
+2023.03.14 11:16:47 INFO  time: compiled remaking-melody-maker in 0.18s
+2023.03.14 11:23:32 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.14 11:23:32 INFO  time: compiled remaking-melody-maker-test in 0.33s
+2023.03.14 11:23:35 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.14 11:23:35 INFO  time: compiled remaking-melody-maker-test in 0.2s
+2023.03.14 11:23:42 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:1:1: stale bloop warning: No class, trait or object is defined in the compilation unit.
+The incremental compiler cannot record the dependency information in such case.
+Some errors like unused import referring to a non-existent class might not be reported.
+
+package utils
+^^^^^^^^^^^^^
+2023.03.14 11:24:09 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.14 11:24:09 INFO  time: compiled remaking-melody-maker-test in 0.3s
+2023.03.14 11:24:38 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.14 11:24:38 INFO  time: compiled remaking-melody-maker-test in 0.26s
+2023.03.14 11:25:12 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:10:14: stale bloop error: Not found: myUtil
+      assert(myUtil.returnNum(3) == 3)
+             ^^^^^^
+2023.03.14 11:25:12 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:10:14: stale bloop error: Not found: myUtil
+      assert(myUtil.returnNum(3) == 3)
+             ^^^^^^
+2023.03.14 11:25:12 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:10:14: stale bloop error: Not found: myUtil
+      assert(myUtil.returnNum(3) == 3)
+             ^^^^^^
+2023.03.14 11:25:12 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:10:14: stale bloop error: Not found: myUtil
+      assert(myUtil.returnNum(3) == 3)
+             ^^^^^^
+2023.03.14 11:25:13 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:10:14: stale bloop error: Not found: myUtil
+      assert(myUtil.returnNum(3) == 3)
+             ^^^^^^
+2023.03.14 11:25:13 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:10:14: stale bloop error: Not found: myUtil
+      assert(myUtil.returnNum(3) == 3)
+             ^^^^^^
+2023.03.14 11:25:54 ERROR scalafmt: /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:21: error: [dialect scala3] } expected but end of file found
+  });
+     ^
+2023.03.14 11:25:54 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.14 11:25:54 INFO  time: compiled remaking-melody-maker-test in 0.82s
+2023.03.14 11:25:57 ERROR scalafmt: /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:21: error: [dialect scala3] } expected but end of file found
+  });
+     ^
+2023.03.14 11:25:57 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.14 11:25:57 INFO  time: compiled remaking-melody-maker-test in 0.75s
+2023.03.14 11:26:04 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.14 11:26:04 INFO  time: compiled remaking-melody-maker-test in 0.63s
+2023.03.14 11:27:27 INFO  compiling remaking-melody-maker (1 scala source)
+2023.03.14 11:27:27 INFO  time: compiled remaking-melody-maker in 0.34s
+2023.03.14 11:28:06 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.14 11:28:06 INFO  time: compiled remaking-melody-maker-test in 0.94s
+2023.03.14 11:28:09 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.14 11:28:11 INFO  time: compiled remaking-melody-maker-test in 1.52s
