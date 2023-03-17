@@ -1,0 +1,92 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(9dd25a95-ed4e-438b-be46-a3dc1973086f), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"18","parents":[]},"eventTime":1678794094183,"message":"Compiling remaking-melody-maker","dataKind":"compile-task","data":{"target":{"uri":"file:/Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/#remaking-melody-maker/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala"},"buildTarget":{"uri":"file:/Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/#remaking-melody-maker/Compile"},"diagnostics":[{"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":13}},"severity":2,"source":"sbt","message":"No class, trait or object is defined in the compilation unit.\nThe incremental compiler cannot record the dependency information in such case.\nSome errors like unused import referring to a non-existent class might not be reported.\n"}],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"18","parents":[]},"eventTime":1678794094190,"message":"Compiled remaking-melody-maker","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/#remaking-melody-maker/Compile"},"errors":0,"warnings":1,"time":7}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"19","parents":[]},"eventTime":1678794094191,"message":"Compiling remaking-melody-maker-test","dataKind":"compile-task","data":{"target":{"uri":"file:/Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/#remaking-melody-maker/Test"}}})[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/target/scala-3.2.2/test-classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 1 Scala source to /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/target/scala-3.2.2/test-classes ..."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"19","parents":[]},"eventTime":1678794094652,"message":"Compiled remaking-melody-maker-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/#remaking-melody-maker/Test"},"errors":0,"warnings":0,"time":461}})[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mStringTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mStrings[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  when given 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should return 5[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32mStringTest:\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32mStrings\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m  when given 4\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m  - should return 5\u001b[0m"})[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 59 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[36mRun completed in 59 milliseconds.\u001b[0m\n\u001b[36mTotal number of tests run: 1\u001b[0m\n\u001b[36mSuites: completed 1, aborted 0\u001b[0m\n\u001b[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0\u001b[0m\n\u001b[32mAll tests passed.\u001b[0m"})[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed 14 Mar 2023, 11:41:34[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala"},"position":{"line":5,"character":1}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition found line:     return 5[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: $/cancelRequest: JsonRpcNotificationMessage(2.0, $/cancelRequest, {"id":9})[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala"},"position":{"line":5,"character":4}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition found line:     return 5[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: $/cancelRequest: JsonRpcNotificationMessage(2.0, $/cancelRequest, {"id":10})[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala"},"position":{"line":7,"character":9}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition found line: [0m
+[0m[[0m[0minfo[0m] [0m[0mSymbol not found in definition request {"textDocument":{"uri":"file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala"},"position":{"line":7,"character":9}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala"},"position":{"line":9,"character":14}}[0m
+[0m[[0m[0minfo[0m] [0m[0mSymbol not found in definition request {"textDocument":{"uri":"file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala"},"position":{"line":9,"character":14}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala"},"position":{"line":13,"character":23}}[0m
+[0m[[0m[0minfo[0m] [0m[0mSymbol not found in definition request {"textDocument":{"uri":"file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala"},"position":{"line":13,"character":23}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala"},"position":{"line":14,"character":26}}[0m
+[0m[[0m[0minfo[0m] [0m[0mSymbol not found in definition request {"textDocument":{"uri":"file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala"},"position":{"line":14,"character":26}}[0m
+[0m[[0m[0mdebug[0m] [0m[0msymbol retur[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition potentials: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition locations Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0msymbol retur[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition potentials: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition locations Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala"},"position":{"line":6,"character":62}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition found line:     34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48)[0m
+[0m[[0m[0mdebug[0m] [0m[0msymbol 48[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition potentials: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition locations Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala"},"position":{"line":9,"character":38}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition found line:   val forthString: Array[Int] = Array(24, 25, 26, 27, 28, 29, 30, 31, 32, 33,[0m
+[0m[[0m[0mdebug[0m] [0m[0msymbol 24[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition potentials: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition locations Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala"},"position":{"line":11,"character":38}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition found line:   val fifthString: Array[Int] = Array(24, 25, 26, 27, 28, 29, 30, 31, 32, 33,[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: $/cancelRequest: JsonRpcNotificationMessage(2.0, $/cancelRequest, {"id":17})[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala"},"position":{"line":11,"character":36}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition found line:   val fifthString: Array[Int] = Array(24, 25, 26, 27, 28, 29, 30, 31, 32, 33,[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: $/cancelRequest: JsonRpcNotificationMessage(2.0, $/cancelRequest, {"id":18})[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala"},"position":{"line":12,"character":14}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition found line:     34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48)[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: $/cancelRequest: JsonRpcNotificationMessage(2.0, $/cancelRequest, {"id":19})[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala"},"position":{"line":13,"character":3}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition found line:   val sixthString: Array[Int] = Array(24, 25, 26, 27, 28, 29, 30, 31, 32, 33,[0m
+[0m[[0m[0mdebug[0m] [0m[0msymbol al[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition potentials: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition locations Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0msymbol 36[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition potentials: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition locations Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0msymbol 24[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition potentials: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition locations Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0msymbol Array[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition potentials: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition locations Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala"},"position":{"line":13,"character":38}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition found line:   val sixthString: Array[Int] = Array(24, 25, 26, 27, 28, 29, 30, 31, 32, 33,[0m
+[0m[[0m[0mdebug[0m] [0m[0msymbol 24[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition potentials: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition locations Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala"},"position":{"line":7,"character":76}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition found line:   val thirdString: Array[Int] = Array(15, 16, 17, 18, 19, 20, 21, 22, 23, 24,[0m
+[0m[[0m[0mdebug[0m] [0m[0msymbol 24[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition potentials: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition locations Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled request received: shutdown: JsonRpcRequestMessage(2.0, ♨23, shutdown, null})[0m

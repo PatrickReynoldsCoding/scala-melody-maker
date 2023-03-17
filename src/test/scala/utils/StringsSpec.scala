@@ -1,14 +1,14 @@
 package utils
 
-import org.scalatest.funspec.AnyFunSpec
+import org.scalatest.wordspec.AnyWordSpec
 
-class StringTest extends AnyFunSpec {
+class StringTest extends AnyWordSpec {
 
-  describe("the findString function returns the correct index") {
-
-    it("takes 4, returns 5") {
-      assert(utils.Strings.findString(4) == 5)
+  "Strings" when {
+    "given 4" should {
+      "return 5" in {
+        assert(utils.Strings.findString(4) == 5)
+      }
     }
-
   }
 }

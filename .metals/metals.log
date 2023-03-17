@@ -470,3 +470,517 @@ package utils
 2023.03.14 11:28:06 INFO  time: compiled remaking-melody-maker-test in 0.94s
 2023.03.14 11:28:09 INFO  compiling remaking-melody-maker-test (1 scala source)
 2023.03.14 11:28:11 INFO  time: compiled remaking-melody-maker-test in 1.52s
+2023.03.14 11:37:52 ERROR scalafmt: /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/build.sbt:9: error: [dialect scala3] ) expected but string constant found
+libraryDependencies += "org.scalatest" %% "scalatest-wordspec" % "3.2.15" % "test"
+                       ^
+Mar 14, 2023 11:37:52 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2Fpatrickreynolds%2Frepos%2Ftests%2Frandom_stuff%2Fscala%2Fremaking-melody-maker%2Fbuild.sbt:15: error: ) expected but string constant found
+libraryDependencies += "org.scalatest" %% "scalatest-wordspec" % "3.2.15" % "test"
+                       ^
+file%3A%2F%2F%2FUsers%2Fpatrickreynolds%2Frepos%2Ftests%2Frandom_stuff%2Fscala%2Fremaking-melody-maker%2Fbuild.sbt:15: error: ) expected but string constant found
+libraryDependencies += "org.scalatest" %% "scalatest-wordspec" % "3.2.15" % "test"
+                       ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:400)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:404)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensAfterOpen(ScalametaParser.scala:250)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensAfterOpenOr(ScalametaParser.scala:255)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensOnOpenOr(ScalametaParser.scala:246)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scala$meta$internal$parsers$ScalametaParser$$getArgClause$1(ScalametaParser.scala:2362)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$getArgClause(ScalametaParser.scala:2351)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:2233)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$3(ScalametaParser.scala:2153)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2153)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2103)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2086)
+	at scala.meta.internal.parsers.ScalametaParser.argumentExprsOrPrefixExpr(ScalametaParser.scala:2323)
+	at scala.meta.internal.parsers.ScalametaParser.loop$6(ScalametaParser.scala:2052)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2070)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2007)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1631)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:330)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:380)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1532)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$1.$anonfun$applyOrElse$1(ScalametaParser.scala:4207)
+	at scala.meta.internal.parsers.ScalametaParser.stat(ScalametaParser.scala:4244)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$1.applyOrElse(ScalametaParser.scala:4207)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$1.applyOrElse(ScalametaParser.scala:4200)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:145)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4263)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$14(ScalametaParser.scala:4476)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4476)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.03.14 11:37:57 ERROR scalafmt: /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/build.sbt:9: error: [dialect scala3] ) expected but string constant found
+"org.scalatest" %% "scalatest-wordspec" % "3.2.15" % "test"
+^
+2023.03.14 11:37:57 INFO  skipping build import with status 'Dismissed'
+Mar 14, 2023 11:37:57 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2Fpatrickreynolds%2Frepos%2Ftests%2Frandom_stuff%2Fscala%2Fremaking-melody-maker%2Fbuild.sbt:15: error: ) expected but string constant found
+"org.scalatest" %% "scalatest-wordspec" % "3.2.15" % "test"
+^
+file%3A%2F%2F%2FUsers%2Fpatrickreynolds%2Frepos%2Ftests%2Frandom_stuff%2Fscala%2Fremaking-melody-maker%2Fbuild.sbt:15: error: ) expected but string constant found
+"org.scalatest" %% "scalatest-wordspec" % "3.2.15" % "test"
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:400)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:404)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensAfterOpen(ScalametaParser.scala:250)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensAfterOpenOr(ScalametaParser.scala:255)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensOnOpenOr(ScalametaParser.scala:246)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scala$meta$internal$parsers$ScalametaParser$$getArgClause$1(ScalametaParser.scala:2362)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$getArgClause(ScalametaParser.scala:2351)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:2233)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$3(ScalametaParser.scala:2153)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2153)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2103)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2086)
+	at scala.meta.internal.parsers.ScalametaParser.argumentExprsOrPrefixExpr(ScalametaParser.scala:2323)
+	at scala.meta.internal.parsers.ScalametaParser.loop$6(ScalametaParser.scala:2052)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2070)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2007)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1631)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:330)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:380)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1532)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$1.$anonfun$applyOrElse$1(ScalametaParser.scala:4207)
+	at scala.meta.internal.parsers.ScalametaParser.stat(ScalametaParser.scala:4244)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$1.applyOrElse(ScalametaParser.scala:4207)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$1.applyOrElse(ScalametaParser.scala:4200)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:145)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4263)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$14(ScalametaParser.scala:4476)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4476)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.03.14 11:38:00 INFO  skipping build import with status 'Dismissed'
+2023.03.14 11:38:09 INFO  skipping build import with status 'Dismissed'
+2023.03.14 11:40:14 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.14 11:40:14 INFO  time: compiled remaking-melody-maker-test in 0.47s
+2023.03.14 11:40:55 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:7:3: stale bloop error: Not found: describe
+  describe("the findString function returns the correct index") {
+  ^^^^^^^^
+2023.03.14 11:40:55 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:9:5: stale bloop error: value it in trait AnyWordSpecLike does not take parameters
+    it("takes 4, returns 5") {
+    ^^
+2023.03.14 11:40:55 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:7:3: stale bloop error: Not found: describe
+  describe("the findString function returns the correct index") {
+  ^^^^^^^^
+2023.03.14 11:40:55 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:9:5: stale bloop error: value it in trait AnyWordSpecLike does not take parameters
+    it("takes 4, returns 5") {
+    ^^
+2023.03.14 11:40:55 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:7:3: stale bloop error: Not found: describe
+  describe("the findString function returns the correct index") {
+  ^^^^^^^^
+2023.03.14 11:40:55 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:9:5: stale bloop error: value it in trait AnyWordSpecLike does not take parameters
+    it("takes 4, returns 5") {
+    ^^
+2023.03.14 11:40:56 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:7:3: stale bloop error: Not found: describe
+  describe("the findString function returns the correct index") {
+  ^^^^^^^^
+2023.03.14 11:40:56 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:9:5: stale bloop error: value it in trait AnyWordSpecLike does not take parameters
+    it("takes 4, returns 5") {
+    ^^
+2023.03.14 11:40:55 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:7:3: stale bloop error: Not found: describe
+  describe("the findString function returns the correct index") {
+  ^^^^^^^^
+2023.03.14 11:40:55 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:9:5: stale bloop error: value it in trait AnyWordSpecLike does not take parameters
+    it("takes 4, returns 5") {
+    ^^
+2023.03.14 11:40:56 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:7:3: stale bloop error: Not found: describe
+  describe("the findString function returns the correct index") {
+  ^^^^^^^^
+2023.03.14 11:40:56 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:9:5: stale bloop error: value it in trait AnyWordSpecLike does not take parameters
+    it("takes 4, returns 5") {
+    ^^
+2023.03.14 11:40:57 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:7:3: stale bloop error: Not found: describe
+  describe("the findString function returns the correct index") {
+  ^^^^^^^^
+2023.03.14 11:40:57 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:9:5: stale bloop error: value it in trait AnyWordSpecLike does not take parameters
+    it("takes 4, returns 5") {
+    ^^
+2023.03.14 11:40:57 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:7:3: stale bloop error: Not found: describe
+  describe("the findString function returns the correct index") {
+  ^^^^^^^^
+2023.03.14 11:40:57 INFO  file:///Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:9:5: stale bloop error: value it in trait AnyWordSpecLike does not take parameters
+    it("takes 4, returns 5") {
+    ^^
+2023.03.14 11:40:58 ERROR scalafmt: /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:21: error: [dialect scala3] } expected but end of file found
+
+^
+2023.03.14 11:40:59 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.14 11:40:59 INFO  time: compiled remaking-melody-maker-test in 0.3s
+2023.03.14 11:41:07 ERROR scalafmt: /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:21: error: [dialect scala3] } expected but end of file found
+
+^
+2023.03.14 11:41:07 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.14 11:41:07 INFO  time: compiled remaking-melody-maker-test in 0.24s
+2023.03.14 11:41:14 ERROR scalafmt: /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:13: error: [dialect scala3] } expected but end of file found
+ }
+  ^
+2023.03.14 11:41:14 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.14 11:41:14 INFO  time: compiled remaking-melody-maker-test in 0.2s
+2023.03.14 11:41:16 ERROR scalafmt: /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:13: error: [dialect scala3] } expected but end of file found
+}
+ ^
+2023.03.14 11:41:16 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.14 11:41:16 INFO  time: compiled remaking-melody-maker-test in 0.21s
+2023.03.14 11:41:26 INFO  compiling remaking-melody-maker-test (1 scala source)
+2023.03.14 11:41:27 INFO  time: compiled remaking-melody-maker-test in 1.4s
+2023.03.14 11:43:08 INFO  compiling remaking-melody-maker (1 scala source)
+2023.03.14 11:43:08 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.14 11:43:08 INFO  time: compiled remaking-melody-maker in 0.52s
+2023.03.14 11:43:09 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.14 11:44:00 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.14 11:44:06 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.14 11:45:53 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.14 11:50:04 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.14 11:50:08 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.14 11:50:30 INFO  compiling remaking-melody-maker (2 scala sources)
+2023.03.14 11:50:30 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:50:30 INFO  time: compiled remaking-melody-maker in 0.2s
+2023.03.14 11:50:30 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:50:34 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:50:35 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:50:43 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:50:44 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:50:44 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:50:50 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:50:51 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:50:52 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:50:59 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:51:00 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:51:03 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:51:05 INFO  compiling remaking-melody-maker (2 scala sources)
+2023.03.14 11:51:05 INFO  time: compiled remaking-melody-maker in 0.2s
+2023.03.14 11:51:06 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:51:08 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:51:13 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:51:17 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:51:19 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:51:19 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:51:22 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:51:22 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:51:23 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:51:24 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:51:25 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:51:26 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:51:27 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:52:24 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:52:25 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:52:27 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:52:27 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:52:28 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:52:29 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:52:28 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:52:46 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:52:54 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:52:56 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:52:57 ERROR scalafmt: /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala:5: error: [dialect scala3] illegal start of simple expression
+    43, 44, 45, 46, 47, 48,)
+                           ^
+2023.03.14 11:52:57 INFO  compiling remaking-melody-maker (2 scala sources)
+2023.03.14 11:52:57 INFO  time: compiled remaking-melody-maker in 0.84s
+2023.03.14 11:52:58 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:53:00 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:53:00 INFO  compiling remaking-melody-maker (2 scala sources)
+2023.03.14 11:53:00 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:53:00 INFO  time: compiled remaking-melody-maker in 0.81s
+2023.03.14 11:53:02 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:53:10 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:53:17 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:58:37 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:58:59 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:59:19 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:59:21 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+Mar 14, 2023 11:59:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4730
+2023.03.14 11:59:22 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:59:22 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:59:24 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:59:25 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:59:26 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:59:27 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:59:31 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:59:32 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:59:39 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:59:41 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:59:43 INFO  compiling remaking-melody-maker (2 scala sources)
+2023.03.14 11:59:43 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:59:43 INFO  time: compiled remaking-melody-maker in 0.26s
+2023.03.14 11:59:43 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:59:55 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:59:56 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:59:57 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 11:59:58 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:00:05 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:00:08 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:00:09 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:00:09 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:00:10 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:00:15 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:00:18 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:00:21 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:00:21 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:00:25 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:00:26 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:00:29 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:00:29 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:00:31 INFO  compiling remaking-melody-maker (2 scala sources)
+2023.03.14 12:00:31 INFO  time: compiled remaking-melody-maker in 0.22s
+2023.03.14 12:00:31 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:00:36 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:00:39 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:00:39 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:00:41 INFO  compiling remaking-melody-maker (2 scala sources)
+2023.03.14 12:00:41 INFO  time: compiled remaking-melody-maker in 0.26s
+2023.03.14 12:00:42 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:00:43 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:00:49 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:00:52 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:01:18 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:01:21 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:01:21 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:01:22 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:01:33 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:01:35 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:01:42 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:01:44 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:01:44 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:01:45 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:01:49 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:01:53 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:01:54 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:01:54 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:01:54 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:01:54 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:01:54 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:01:54 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:01:54 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:01:54 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:01:58 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:02:00 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:02:00 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:02:00 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:02:01 INFO  compiling remaking-melody-maker (2 scala sources)
+2023.03.14 12:02:01 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:02:01 INFO  time: compiled remaking-melody-maker in 0.26s
+2023.03.14 12:02:01 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:02:14 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:02:17 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.14 12:02:19 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:02:21 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:02:21 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:02:21 INFO  compiling remaking-melody-maker (2 scala sources)
+2023.03.14 12:02:21 INFO  time: compiled remaking-melody-maker in 0.23s
+2023.03.14 12:02:22 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:02:40 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.14 12:03:06 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:03:11 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.14 12:03:15 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.14 12:03:16 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.14 12:03:17 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.14 12:03:17 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.14 12:03:18 INFO  compiling remaking-melody-maker (2 scala sources)
+2023.03.14 12:03:18 INFO  time: compiled remaking-melody-maker in 0.5s
+2023.03.14 12:03:18 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.14 12:03:36 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.14 12:03:37 INFO  compiling remaking-melody-maker (2 scala sources)
+2023.03.14 12:03:37 INFO  time: compiled remaking-melody-maker in 0.41s
+2023.03.14 12:03:37 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.14 12:04:36 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.14 12:04:40 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:07:50 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:10:50 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.14 12:17:11 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.15 10:02:08 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Notes.scala
+2023.03.15 10:02:15 INFO  Shutting down server
+2023.03.15 10:02:15 INFO  shutting down Metals
+2023.03.15 10:02:15 INFO  Shut down connection with build server.
+2023.03.15 10:02:15 INFO  Shut down connection with build server.
+2023.03.15 10:02:15 INFO  Exiting server
+2023.03.16 17:25:59 INFO  Started: Metals version 0.11.11 in workspace '/Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker' for client Visual Studio Code 1.76.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.16 17:26:00 INFO  time: initialize in 1.21s
+2023.03.16 17:26:09 INFO  Attempting to connect to the build server...
+2023.03.16 17:26:09 INFO  Bloop uses /Users/patrickreynolds/.jabba/jdk/openjdk@1.17.0/Contents/Home defined at /Users/patrickreynolds/.bloop/bloop.json
+Mar 16, 2023 5:26:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Mar 16, 2023 5:26:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Mar 16, 2023 5:26:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+2023.03.16 17:26:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/.metals/bsp.trace.json or /Users/patrickreynolds/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.03.16 17:26:12 INFO  Attempting to connect to the build server...
+2023.03.16 17:26:12 INFO  Bloop uses /Users/patrickreynolds/.jabba/jdk/openjdk@1.17.0/Contents/Home defined at /Users/patrickreynolds/.bloop/bloop.json
+Mar 16, 2023 5:26:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Mar 16, 2023 5:26:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+2023.03.16 17:26:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/project/.metals/bsp.trace.json or /Users/patrickreynolds/Library/Caches/org.scalameta.metals/bsp.trace.json
+Mar 16, 2023 5:26:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+Mar 16, 2023 5:26:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23
+2023.03.16 17:26:13 INFO  time: Connected to build server in 4.25s
+2023.03.16 17:26:13 INFO  Connected to Build server: Bloop v1.5.6
+Mar 16, 2023 5:26:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33
+2023.03.16 17:26:23 INFO  no build target found for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.03.16 17:26:23 INFO  time: code lens generation in 14s
+2023.03.16 17:26:24 INFO  time: Imported build in 0.43s
+2023.03.16 17:26:33 INFO  no build target found for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.2.2
+Mar 16, 2023 5:26:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 40
+Mar 16, 2023 5:26:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 43
+2023.03.16 17:26:35 INFO  time: code lens generation in 21s
+2023.03.16 17:26:37 INFO  time: code lens generation in 23s
+2023.03.16 17:26:37 INFO  time: code lens generation in 23s
+2023.03.16 17:26:38 INFO  time: code lens generation in 25s
+2023.03.16 17:26:39 INFO  time: code lens generation in 27s
+2023.03.16 17:26:39 INFO  time: code lens generation in 27s
+2023.03.16 17:26:39 INFO  time: code lens generation in 5.68s
+2023.03.16 17:26:39 INFO  time: code lens generation in 28s
+2023.03.16 17:26:39 INFO  time: code lens generation in 15s
+2023.03.16 17:26:49 INFO  time: indexed workspace in 24s
+2023.03.16 17:26:49 INFO  compiling remaking-melody-maker (2 scala sources)
+2023.03.16 17:26:52 INFO  time: compiled remaking-melody-maker in 2.71s
+2023.03.16 17:26:52 INFO  compiling remaking-melody-maker (2 scala sources)
+2023.03.16 17:26:54 INFO  time: compiled remaking-melody-maker in 1.67s
+2023.03.16 17:26:54 INFO  compiling remaking-melody-maker (2 scala sources)
+2023.03.16 17:26:56 INFO  time: compiled remaking-melody-maker in 2.09s
+2023.03.16 17:27:07 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.16 17:27:07 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.16 17:27:07 ERROR scalafmt: /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala:11: error: [dialect scala3] } expected but end of file found
+
+^
+2023.03.16 17:27:07 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.16 17:27:07 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.16 17:27:08 INFO  compiling remaking-melody-maker (2 scala sources)
+2023.03.16 17:27:10 INFO  time: compiled remaking-melody-maker in 2.17s
+2023.03.16 17:27:11 ERROR scalafmt: /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala:10: error: [dialect scala3] } expected but end of file found
+}
+ ^
+2023.03.16 17:27:10 INFO  compiling remaking-melody-maker (2 scala sources)
+2023.03.16 17:27:14 INFO  time: compiled remaking-melody-maker in 2.96s
+Mar 16, 2023 5:27:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 353
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 353
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 353
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:48)
+	at java.base/java.lang.String.charAt(String.java:1512)
+	at scala.collection.StringOps$.apply$extension(StringOps.scala:188)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$13(ExtractValueCodeAction.scala:60)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$12(ExtractValueCodeAction.scala:57)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$9(ExtractValueCodeAction.scala:55)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$7(ExtractValueCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$6(ExtractValueCodeAction.scala:51)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$1(ExtractValueCodeAction.scala:49)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.03.16 17:27:25 INFO  compiling remaking-melody-maker (2 scala sources)
+2023.03.16 17:27:27 INFO  time: compiled remaking-melody-maker in 1.68s
+2023.03.16 17:27:47 INFO  compiling remaking-melody-maker (2 scala sources)
+2023.03.16 17:27:48 INFO  time: compiled remaking-melody-maker in 1.36s
+2023.03.16 17:27:49 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.16 17:27:49 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.16 17:27:49 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.16 17:27:49 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.16 17:27:49 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.16 17:27:49 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.16 17:27:49 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.16 17:27:49 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.16 17:28:12 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.16 17:28:36 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.16 18:46:01 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.16 19:14:09 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.16 20:30:32 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.17 09:50:44 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.17 09:51:01 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.17 09:51:09 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.17 09:51:12 INFO  compiling remaking-melody-maker (2 scala sources)
+2023.03.17 09:51:13 INFO  time: compiled remaking-melody-maker in 1.46s
+2023.03.17 09:51:14 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.17 09:51:15 WARN  Could not load snapshot text for /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/main/scala/utils/Strings.scala
+2023.03.17 09:51:16 INFO  compiling remaking-melody-maker (2 scala sources)
+2023.03.17 09:51:17 INFO  time: compiled remaking-melody-maker in 1.42s
