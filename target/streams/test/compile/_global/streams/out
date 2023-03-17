@@ -1,5 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:10:19 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m10 |[0m      assert(utils.findString([31m4[0m) == [31m5[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m             ^^^^^^^^^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m             value findString is not a member of utils[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/src/test/scala/utils/StringsSpec.scala:10:15 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m10 |[0m        assert(utils.Strings.findString([31m4[0m) == [31m5[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m           Values of types Unit and Int cannot be compared with == or !=[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

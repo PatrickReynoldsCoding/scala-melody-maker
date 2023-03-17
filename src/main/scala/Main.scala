@@ -1,10 +1,10 @@
-// object myUtil {
+object Main {
 
-//   def returnNum(x: Int): Int = {
-//     return x
-//   }
+  def returnNum(x: Int): Int = {
+    return x
+  }
 
-//   def main(args: Array[String]): Int = {
-//     returnNum(2)
-//   }
-// }
+  def main(args: Array[String]): Unit = {
+    println("Hello, world!")
+  }
+}

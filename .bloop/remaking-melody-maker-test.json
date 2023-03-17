@@ -18,16 +18,16 @@
             "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.2.2/scala3-library_3-3.2.2.jar",
             "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_3/3.2.15/scalactic_3-3.2.15.jar",
             "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_3/3.2.15/scalatest_3-3.2.15.jar",
-            "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_3/3.2.15/scalatest-flatspec_3-3.2.15.jar",
+            "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-wordspec_3/3.2.15/scalatest-wordspec_3-3.2.15.jar",
             "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar",
             "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-core_3/3.2.15/scalatest-core_3-3.2.15.jar",
             "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-featurespec_3/3.2.15/scalatest-featurespec_3-3.2.15.jar",
+            "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_3/3.2.15/scalatest-flatspec_3-3.2.15.jar",
             "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-freespec_3/3.2.15/scalatest-freespec_3-3.2.15.jar",
             "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funsuite_3/3.2.15/scalatest-funsuite_3-3.2.15.jar",
             "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funspec_3/3.2.15/scalatest-funspec_3-3.2.15.jar",
             "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-propspec_3/3.2.15/scalatest-propspec_3-3.2.15.jar",
             "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-refspec_3/3.2.15/scalatest-refspec_3-3.2.15.jar",
-            "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-wordspec_3/3.2.15/scalatest-wordspec_3-3.2.15.jar",
             "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-diagrams_3/3.2.15/scalatest-diagrams_3-3.2.15.jar",
             "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-matchers-core_3/3.2.15/scalatest-matchers-core_3-3.2.15.jar",
             "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-shouldmatchers_3/3.2.15/scalatest-shouldmatchers_3-3.2.15.jar",
@@ -151,17 +151,7 @@
                     
                 ],
                 "arguments": [
-                    {
-                        "args": [
-                            "-o"
-                        ],
-                        "framework": {
-                            "names": [
-                                "org.scalatest.tools.Framework",
-                                "org.scalatest.tools.ScalaTestFramework"
-                            ]
-                        }
-                    }
+                    
                 ]
             }
         },
@@ -249,18 +239,18 @@
                 },
                 {
                     "organization": "org.scalatest",
-                    "name": "scalatest-flatspec_3",
+                    "name": "scalatest-wordspec_3",
                     "version": "3.2.15",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "scalatest-flatspec_3",
-                            "path": "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_3/3.2.15/scalatest-flatspec_3-3.2.15.jar"
+                            "name": "scalatest-wordspec_3",
+                            "path": "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-wordspec_3/3.2.15/scalatest-wordspec_3-3.2.15.jar"
                         },
                         {
-                            "name": "scalatest-flatspec_3",
+                            "name": "scalatest-wordspec_3",
                             "classifier": "sources",
-                            "path": "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_3/3.2.15/scalatest-flatspec_3-3.2.15-sources.jar"
+                            "path": "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-wordspec_3/3.2.15/scalatest-wordspec_3-3.2.15-sources.jar"
                         }
                     ]
                 },
@@ -295,6 +285,23 @@
                             "name": "scalatest-featurespec_3",
                             "classifier": "sources",
                             "path": "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-featurespec_3/3.2.15/scalatest-featurespec_3-3.2.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-flatspec_3",
+                    "version": "3.2.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-flatspec_3",
+                            "path": "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_3/3.2.15/scalatest-flatspec_3-3.2.15.jar"
+                        },
+                        {
+                            "name": "scalatest-flatspec_3",
+                            "classifier": "sources",
+                            "path": "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_3/3.2.15/scalatest-flatspec_3-3.2.15-sources.jar"
                         }
                     ]
                 },
@@ -380,23 +387,6 @@
                             "name": "scalatest-refspec_3",
                             "classifier": "sources",
                             "path": "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-refspec_3/3.2.15/scalatest-refspec_3-3.2.15-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.scalatest",
-                    "name": "scalatest-wordspec_3",
-                    "version": "3.2.15",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "scalatest-wordspec_3",
-                            "path": "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-wordspec_3/3.2.15/scalatest-wordspec_3-3.2.15.jar"
-                        },
-                        {
-                            "name": "scalatest-wordspec_3",
-                            "classifier": "sources",
-                            "path": "/Users/patrickreynolds/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-wordspec_3/3.2.15/scalatest-wordspec_3-3.2.15-sources.jar"
                         }
                     ]
                 },

@@ -1,9 +1,29 @@
 [0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/target/scala-3.2.2/remaking-melody-maker_3-0.1.0-SNAPSHOT.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	myUtil.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/target/scala-3.2.2/classes/myUtil.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	myUtil.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/target/scala-3.2.2/classes/myUtil.tasty[0m
-[0m[[0m[0mdebug[0m] [0m[0m	myUtil$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/target/scala-3.2.2/classes/myUtil$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/target/scala-3.2.2/classes/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utils[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/target/scala-3.2.2/classes/utils[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utils/Fretboard$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/target/scala-3.2.2/classes/utils/Fretboard$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utils/Strings.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/target/scala-3.2.2/classes/utils/Strings.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utils/StringsAndNotes$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/target/scala-3.2.2/classes/utils/StringsAndNotes$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utils/Strings.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/target/scala-3.2.2/classes/utils/Strings.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utils/StringsAndNotes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/target/scala-3.2.2/classes/utils/StringsAndNotes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utils/Fretboard.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/target/scala-3.2.2/classes/utils/Fretboard.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utils/Fretboard.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/target/scala-3.2.2/classes/utils/Fretboard.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utils/Strings$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/target/scala-3.2.2/classes/utils/Strings$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utils/StringsAndNotes.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/target/scala-3.2.2/classes/utils/StringsAndNotes.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/target/scala-3.2.2/classes/Main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/target/scala-3.2.2/classes/Main.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

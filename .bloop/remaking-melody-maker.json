@@ -134,17 +134,7 @@
                     
                 ],
                 "arguments": [
-                    {
-                        "args": [
-                            "-o"
-                        ],
-                        "framework": {
-                            "names": [
-                                "org.scalatest.tools.Framework",
-                                "org.scalatest.tools.ScalaTestFramework"
-                            ]
-                        }
-                    }
+                    
                 ]
             }
         },
