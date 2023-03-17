@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(938abc25-1bb9-451e-82f3-df2604336445), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/target/scala-3.2.2/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mStringTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mStrings[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  when given a note[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - should return 4 when given 5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 244 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 4 s, completed 17 Mar 2023, 14:27:52[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

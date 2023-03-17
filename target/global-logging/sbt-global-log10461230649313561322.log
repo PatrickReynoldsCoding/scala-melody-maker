@@ -1,4 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(console, Some(510a42be-ccd6-416d-9139-1c39ce5aa0cd), Some(CommandSource(console0)))[0m
-[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / console[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /Users/patrickreynolds/repos/tests/random_stuff/scala/remaking-melody-maker/target/scala-3.2.2/classes ...[0m
